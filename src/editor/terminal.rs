@@ -7,7 +7,7 @@ use std::io::{stdout, Error, Write};
 
 pub struct Terminal {}
 
-#[derive(Clone, Copy, Default)]
+#[derive(Clone, Copy)]
 pub struct Position {
     pub row: usize,
     pub col: usize,
